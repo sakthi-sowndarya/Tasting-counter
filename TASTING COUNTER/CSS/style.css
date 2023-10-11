@@ -1,0 +1,169 @@
+:root{
+   --maroon:#9A3B3B;
+    --brown:#C08261;
+    --beign:#E2C799;
+    --white:#F2ECBE;
+
+}
+body,h2{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url('../media/food\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: var( --brown);
+
+}
+header a{
+    text-decoration: none;
+    color:var(--beign) ;
+    min-width: 120px;
+}
+header{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+
+}
+#logo{
+    flex:3;
+    font-size: 2em;
+}
+nav{
+    flex:2;
+    display: flex;
+}
+nav a{
+    flex: 2;
+}
+nav a:hover{
+    color: var(--skyblue);
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+   
+}
+.tagline1{
+    font-size:2.5em ;
+    font-weight: bolder;
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    margin-top: 2em;
+    width: 20vw;
+   background-color: bisque;
+    border-radius: 10px;
+    padding:.5em;
+    font-size: 1 em;
+    font-weight: bolder;
+}
+.menu{
+    display: grid;
+    background-image: url(/media/wood.png);
+    color: var(--white);
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+   
+}
+#menuheading, #locheading{
+    background-image: url(/media/wood.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color: var(--brown);
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color: var(--brown);
+    font-size: 1.8em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display:flex;
+    justify-content: center;
+    margin-top: .6em;
+}
+.menu td:nth-child(1){
+    justify-self: left;
+    flex: 1;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row: span 2;
+}
+.locations{
+    background-image: url(/media/wood.png);
+    color: var(--beign);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.locations h2{
+    color: var(--brown);
+    margin-bottom: .8em;
+}
+.locations div{
+    flex:1;
+    padding:1em;
+    min-width: 220px;
+}
+footer{
+    background-color: rgb(37, 5, 5);
+    color: var(--beign);
+    padding: 1em;
+}
+#logo{
+    flex: 3;
+    font-size: 2em;
+    min-width: 260px;
+}
+nav{
+    flex: 2;
+    display:flex;
+    align-items: center;  
+}
+nav a{
+    flex: 1;
+    min-width: 120px;
+}
+header h2 i,nav a i{
+    margin-right: .5em;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+    transform: translate(0,-10%);
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+ 
+  
+  
